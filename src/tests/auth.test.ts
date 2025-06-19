@@ -6,7 +6,7 @@ import { getAPIKey } from "src/api/auth";
 
 describe('getAPIKey', () => {
   test('APIKey does not exist', () => {
-    const headers = { 'abc'}
+    const headers = {}
     const result = getAPIKey(headers)
     expect(result).toBeNull();
   });
