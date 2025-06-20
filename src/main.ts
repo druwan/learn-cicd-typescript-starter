@@ -29,9 +29,6 @@ app.use(
   }),
 );
 
-function unused() {
-  // nop
-}
 
 app.use("/", express.static(path.join(__dirname, config.api.filepathRoot)));
 
