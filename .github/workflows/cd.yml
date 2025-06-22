@@ -32,4 +32,4 @@ jobs:
         uses: "google-github-actions/setup-gcloud@v2"
 
       - name: "Use gcloud CLI"
-        run: "gcloud info"
+        run: "gcloud builds submit --tag europe-north2-docker.pkg.dev/notely-463609/notely-ar-repo/druwan/notely:latest"
